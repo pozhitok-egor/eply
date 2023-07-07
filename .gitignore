@@ -32,6 +32,9 @@ local.properties
 *.hprof
 .cxx/
 
+# VS Code
+.vscode
+
 # node.js
 #
 node_modules/

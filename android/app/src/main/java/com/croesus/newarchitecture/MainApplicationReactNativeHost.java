@@ -1,4 +1,4 @@
-package com.croesus.newarchitecture;
+package com.eply.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.croesus.BuildConfig;
-import com.croesus.newarchitecture.components.MainComponentsRegistry;
-import com.croesus.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.eply.BuildConfig;
+import com.eply.newarchitecture.components.MainComponentsRegistry;
+import com.eply.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

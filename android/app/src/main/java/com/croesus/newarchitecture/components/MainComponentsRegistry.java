@@ -1,4 +1,4 @@
-package com.croesus.newarchitecture.components;
+package com.eply.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;
