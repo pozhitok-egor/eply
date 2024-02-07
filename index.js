@@ -3,26 +3,16 @@
  */
 
 import React from 'react';
-import { AppRegistry, useColorScheme } from 'react-native';
-import App from './App';
+import { AppRegistry } from 'react-native';
+import App from './src/app/App';
 import { name as appName } from './app.json';
-import {
-  Provider as PaperProvider,
-  MD3DarkTheme,
-  MD3LightTheme,
-} from 'react-native-paper';
+import { ThemeProvider } from 'src/app/theme/ThemeContext';
 
 export default function Main() {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const paperTheme = isDarkMode
-    ? { ...MD3DarkTheme, roundness: 2 }
-    : { ...MD3LightTheme, roundness: 2 };
-
   return (
-    <PaperProvider theme={paperTheme}>
+    <ThemeProvider>
       <App />
-    </PaperProvider>
+    </ThemeProvider>
   );
 }
 

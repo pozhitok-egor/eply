@@ -4,6 +4,19 @@
     <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="LightTheme" parent="AppTheme">
+        <item name="splashBgColor">#FEF7FF</item>
+        <item name="splashLogoColor">#1D1B20</item>
+        <item name="splashLogoImage">@drawable/logo</item>
+    </style>
+
+    <style name="DarkTheme" parent="AppTheme">
+        <item name="splashBgColor">#151217</item>
+        <item name="splashLogoColor">#E8E0E8</item>
+        <item name="splashLogoImage">@drawable/logo</item>
     </style>
 
 </resources>
