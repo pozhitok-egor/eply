@@ -8,11 +8,15 @@
         "@assets": "./src/assets",
         "@components": "./src/components",
         "@scenes": "./src/scenes",
-        "@theme": "./src/theme",
+        "@theme": "./src/app/theme",
         "@utils": "./src/utils",
         "@pages": "./src/pages",
         "@shared": "./src/shared",
-      },
+        "@ui": "./src/ui",
+        "@hooks": "./src/shared/hooks",
+        "@helpers": "./src/shared/helpers",
+        "@config": "./src/shared/config"
+      }
     }]
   ]
 }
